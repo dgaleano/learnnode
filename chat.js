@@ -7,3 +7,4 @@ server.on('connection',function(client){
 	client.end();
 });
 server.listen(9000);
+console.log('Chat server runnig');
