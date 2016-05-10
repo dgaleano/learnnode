@@ -5,7 +5,7 @@ let server = chat.createServer();
 server.on('connection',function(client){
 	client.write('hola \n ');
 	client.on('data',recieve=>{
-		console.log(recieve);
+		console.log(recieve.toString());
 	});
 });
 server.listen(9000);
