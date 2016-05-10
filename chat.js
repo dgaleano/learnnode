@@ -1,5 +1,5 @@
-var chat = require('net');
-var server = chat.createServer();
+let chat = require('net');
+let server = chat.createServer();
 
 server.on('connection',function(client){
 	client.write('hola \n ');
