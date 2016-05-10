@@ -1,1 +1,11 @@
-console.log('este es otro modulo');
+'use strict';
+
+class Prueba{
+	function contructor(){
+		this.nombre = 'hola';
+	}
+	
+	function imprimir(){
+		console.log('imprimir');
+	}
+}
